@@ -198,6 +198,7 @@ workflows:
 
       # run tests on Firefox browser using Cypress CircleCI Orb
       # see https://github.com/cypress-io/circleci-orb
+      # building in circleCI.
       - cypress/run:
           name: using Firefox
           executor: cypress/browsers-chrome78-ff70
